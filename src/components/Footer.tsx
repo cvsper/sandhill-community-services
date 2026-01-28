@@ -7,22 +7,22 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Contact Column */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6 text-[#1F3A5F]">
+            <h3 className="text-xl font-serif font-bold mb-6 text-gray-300">
               Contact
             </h3>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <Phone className="h-5 w-5 text-[#1F3A5F] mt-1" />
+                <Phone className="h-5 w-5 text-gray-300 mt-1" />
                 <span className="text-gray-300">352-555-4234</span>
               </li>
               <li className="flex items-start gap-3">
-                <Mail className="h-5 w-5 text-[#1F3A5F] mt-1" />
+                <Mail className="h-5 w-5 text-gray-300 mt-1" />
                 <span className="text-gray-300">
                   info@sandhillcommunity.com
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-[#1F3A5F] mt-1" />
+                <MapPin className="h-5 w-5 text-gray-300 mt-1" />
                 <span className="text-gray-300">Mon-Fri: 9am - 5pm</span>
               </li>
             </ul>
@@ -30,7 +30,7 @@ export function Footer() {
 
           {/* Referral Column */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6 text-[#1F3A5F]">
+            <h3 className="text-xl font-serif font-bold mb-6 text-gray-300">
               Referral
             </h3>
             <ul className="space-y-3 text-gray-300">
@@ -54,7 +54,7 @@ export function Footer() {
 
           {/* Policies Column */}
           <div>
-            <h3 className="text-xl font-serif font-bold mb-6 text-[#1F3A5F]">
+            <h3 className="text-xl font-serif font-bold mb-6 text-gray-300">
               Policies
             </h3>
             <ul className="space-y-3 text-gray-300">
