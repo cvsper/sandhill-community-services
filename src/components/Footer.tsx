@@ -85,7 +85,7 @@ export function Footer() {
           <div>
             <div className="mb-6">
               <img
-                src="/logo.png"
+                src="/logo.jpg"
                 alt="Sandhill Community Services"
                 className="h-12 w-auto brightness-0 invert"
               />

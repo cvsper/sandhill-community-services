@@ -15,7 +15,7 @@ export function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img
-              src="/logo.png"
+              src="/logo.jpg"
               alt="Sandhill Community Services"
               className="h-14 w-auto"
             />
