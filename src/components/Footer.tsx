@@ -83,23 +83,12 @@ export function Footer() {
 
           {/* Brand Column */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="h-10 w-10 border border-white/30 flex items-center justify-center">
-                <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  className="h-6 w-6 text-white"
-                  stroke="currentColor"
-                  strokeWidth="1.5">
-
-                  <path
-                    d="M16 12c0-4.418-3.582-8-8-8m0 0v8m0-8C5.5 4 3 6.5 3 12a9 9 0 0 0 9 9h4a5 5 0 0 0 5-5c0-2.5-2-5-5-5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round" />
-
-                </svg>
-              </div>
-              <span className="text-lg font-bold font-serif">SANDHILL</span>
+            <div className="mb-6">
+              <img
+                src="/logo.png"
+                alt="Sandhill Community Services"
+                className="h-12 w-auto brightness-0 invert"
+              />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
               Enhancing lives and supporting independence through compassionate,

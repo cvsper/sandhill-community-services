@@ -13,31 +13,12 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="flex h-12 w-12 items-center justify-center border-2 border-[#1B365D] p-1">
-              {/* Abstract Bird Icon Representation */}
-              <svg
-                viewBox="0 0 24 24"
-                fill="none"
-                className="h-full w-full text-[#1B365D]"
-                stroke="currentColor"
-                strokeWidth="1.5">
-
-                <path
-                  d="M16 12c0-4.418-3.582-8-8-8m0 0v8m0-8C5.5 4 3 6.5 3 12a9 9 0 0 0 9 9h4a5 5 0 0 0 5-5c0-2.5-2-5-5-5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round" />
-
-              </svg>
-            </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-bold tracking-tight text-[#1B365D] font-serif leading-none">
-                SANDHILL
-              </span>
-              <span className="text-[10px] uppercase tracking-widest text-gray-500 font-medium">
-                Community Services
-              </span>
-            </div>
+          <div className="flex items-center">
+            <img
+              src="/logo.png"
+              alt="Sandhill Community Services"
+              className="h-14 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
