@@ -41,28 +41,22 @@ export function Header() {
             <Button variant="secondary" size="sm" className="font-semibold">
               Start a Referral
             </Button>
-            <Button variant="primary" size="sm" className="font-semibold">
-              Call Now
-            </Button>
+            <a href="tel:18137709858">
+              <Button variant="primary" size="sm" className="font-semibold">
+                <Phone className="h-4 w-4 mr-2" />
+                Call Now
+              </Button>
+            </a>
           </div>
 
-          {/* Mobile Menu Button (Placeholder) */}
-          <button className="md:hidden p-2 text-[#1B365D]">
-            <span className="sr-only">Open menu</span>
-            <svg
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 12h16M4 18h16" />
-
-            </svg>
-          </button>
+          {/* Mobile Call Button */}
+          <a
+            href="tel:18137709858"
+            className="md:hidden inline-flex items-center gap-2 bg-[#1B365D] text-white px-4 py-2 rounded-md font-semibold text-sm"
+          >
+            <Phone className="h-4 w-4" />
+            Call Now
+          </a>
         </div>
       </div>
     </header>);
