@@ -36,7 +36,7 @@ export function WhoWeServe() {
 
             </div>
             {/* Decorative element */}
-            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-[#C19A6B]/20 rounded-full -z-10" />
+            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-[#1F3A5F]/20 rounded-full -z-10" />
             <div className="absolute -top-6 -right-6 w-32 h-32 bg-[#1B365D]/10 rounded-full -z-10" />
           </div>
         </div>

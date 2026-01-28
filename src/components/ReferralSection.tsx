@@ -16,7 +16,7 @@ export function ReferralSection() {
 
             <div className="space-y-4">
               <div className="flex items-center gap-3 p-4 bg-[#F5F3F7] rounded-lg border border-gray-100">
-                <div className="bg-[#C19A6B] p-2 rounded-full text-white">
+                <div className="bg-[#1F3A5F] p-2 rounded-full text-white">
                   <MapPin size={20} />
                 </div>
                 <span className="text-xl font-medium text-[#1B365D]">

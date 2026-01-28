@@ -52,7 +52,7 @@ export function Header() {
           {/* Mobile Call Button */}
           <a
             href="tel:18137709858"
-            className="md:hidden inline-flex items-center gap-1.5 bg-[#C19A6B] hover:bg-[#a8855a] text-white px-3 py-1.5 rounded-md font-medium text-xs"
+            className="md:hidden inline-flex items-center gap-1.5 bg-[#1F3A5F] hover:bg-[#162d4a] text-white px-3 py-1.5 rounded-md font-medium text-xs"
           >
             <Phone className="h-3 w-3" />
             Call Now
