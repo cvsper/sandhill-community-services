@@ -10,7 +10,7 @@ export function ReferralSection() {
               How Referrals Work
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-              We currently serve individuals in Pasco and Hernando counties.
+              We currently serve individuals in Pasco County.
               Other areas considered based on availability.
             </p>
 
@@ -23,14 +23,6 @@ export function ReferralSection() {
                   Pasco County
                 </span>
               </div>
-              <div className="flex items-center gap-3 p-4 bg-[#F5F3F7] rounded-lg border border-gray-100">
-                <div className="bg-[#C19A6B] p-2 rounded-full text-white">
-                  <MapPin size={20} />
-                </div>
-                <span className="text-xl font-medium text-[#1B365D]">
-                  Hernando County
-                </span>
-              </div>
             </div>
           </div>
 
@@ -41,12 +33,9 @@ export function ReferralSection() {
 
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="relative w-64 h-64">
-                {/* Simulated County Shapes */}
-                <div className="absolute top-0 right-0 w-40 h-32 bg-[#1B365D] rounded-lg opacity-90 flex items-center justify-center text-white font-serif text-xl shadow-lg transform rotate-3 z-10">
+                {/* Simulated County Shape */}
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-44 h-36 bg-[#1B365D] rounded-lg opacity-90 flex items-center justify-center text-white font-serif text-xl shadow-lg">
                   Pasco
-                </div>
-                <div className="absolute bottom-10 right-10 w-40 h-32 bg-[#1B365D]/80 rounded-lg flex items-center justify-center text-white font-serif text-xl shadow-lg transform -rotate-2">
-                  Hernando
                 </div>
               </div>
             </div>
