@@ -6,7 +6,7 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full bg-white shadow-sm font-sans">
       {/* Top Bar */}
       <div className="w-full bg-[#f8f9fa] border-b border-gray-100 py-2 text-center text-xs sm:text-sm text-[#1B365D] font-medium tracking-wide">
-        Serving individuals supported by Florida Medicaid Waiver programs.
+        Personal Supports • Companion Services • Supported Living
       </div>
 
       {/* Main Header */}
