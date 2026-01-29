@@ -1,5 +1,6 @@
 import React from 'react';
-import { Phone, Mail, MapPin } from 'lucide-react';
+import { Phone, Mail, Clock } from 'lucide-react';
+
 export function Footer() {
   return (
     <footer className="bg-[#152b4a] text-white pt-16 pb-8 border-t border-white/10">
@@ -13,17 +14,25 @@ export function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-gray-300 mt-1" />
-                <span className="text-gray-300">352-555-4234</span>
+                <a
+                  href="tel:18137709858"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  (813) 770-9858
+                </a>
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="h-5 w-5 text-gray-300 mt-1" />
-                <span className="text-gray-300">
-                  info@sandhillcommunity.com
-                </span>
+                <a
+                  href="mailto:info@sandhillcares.com"
+                  className="text-gray-300 hover:text-white transition-colors"
+                >
+                  info@sandhillcares.com
+                </a>
               </li>
               <li className="flex items-start gap-3">
-                <MapPin className="h-5 w-5 text-gray-300 mt-1" />
-                <span className="text-gray-300">Mon-Fri: 9am - 5pm</span>
+                <Clock className="h-5 w-5 text-gray-300 mt-1" />
+                <span className="text-gray-300">Mon–Fri: 9am–5pm</span>
               </li>
             </ul>
           </div>
@@ -41,7 +50,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Upload Documents
+                  For Support Coordinators
                 </a>
               </li>
               <li>
@@ -60,22 +69,22 @@ export function Footer() {
             <ul className="space-y-3 text-gray-300">
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Privacy Policy
+                  Privacy Practices (HIPAA)
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Accessibility Statement
+                  Client Rights
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Nondiscrimination Notice
+                  Grievance Procedure
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition-colors">
-                  Terms of Use
+                  Abuse Reporting
                 </a>
               </li>
             </ul>
@@ -91,7 +100,7 @@ export function Footer() {
               />
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
-              Enhancing lives and supporting independence through compassionate,
+              Supporting independence and enhancing lives through compassionate,
               person-centered care.
             </p>
           </div>
@@ -104,6 +113,6 @@ export function Footer() {
           </p>
         </div>
       </div>
-    </footer>);
-
+    </footer>
+  );
 }

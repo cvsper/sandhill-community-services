@@ -1,34 +1,46 @@
 import React from 'react';
 import { Button } from './ui/Button';
+
 export function Hero() {
   return (
-    <section className="relative w-full h-[500px] md:h-[600px] overflow-hidden bg-gray-100">
+    <section className="relative w-full min-h-[600px] md:min-h-[700px] overflow-hidden bg-gray-100">
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop"
+          src="/hero-image.png"
           alt="Caregiver supporting an individual"
-          className="h-full w-full object-cover object-center" />
-
+          className="h-full w-full object-cover object-center"
+        />
         {/* Gradient Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-white/90 via-white/60 to-transparent md:via-white/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1B365D]/95 via-[#1B365D]/80 to-[#1B365D]/40" />
       </div>
 
       {/* Content */}
-      <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-start md:items-end text-left md:text-right">
-        <div className="max-w-2xl pt-12 md:pt-0">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#1B365D] leading-tight mb-4 drop-shadow-sm">
-            Enhancing Lives, <br />
-            Supporting Independence
+      <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-start py-20">
+        <div className="max-w-2xl">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
+            Supporting Independence.
+            <br />
+            Enhancing Lives.
           </h1>
-          <p className="text-lg md:text-xl text-gray-700 mb-8 font-medium max-w-lg ml-auto">
-            Person-centered support for individuals with disabilities.
+          <p className="text-lg md:text-xl text-gray-200 mb-10 leading-relaxed">
+            Sandhill Community Services provides person-centered support to
+            individuals with intellectual and developmental disabilities through
+            Florida's Medicaid iBudget Waiver.
           </p>
-          <Button variant="secondary" size="lg" className="shadow-lg">
-            View Our Services
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Button variant="secondary" size="lg">
+              Start a Referral
+            </Button>
+            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-[#1B365D]">
+              For Support Coordinators
+            </Button>
+            <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-[#1B365D]">
+              Join Our Team
+            </Button>
+          </div>
         </div>
       </div>
-    </section>);
-
+    </section>
+  );
 }
