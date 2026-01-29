@@ -7,7 +7,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/hero-image.png"
+          src="/hero-image.jpg"
           alt="Caregiver supporting an individual"
           className="h-full w-full object-cover object-center"
         />
